@@ -9,6 +9,10 @@ activity = "1.9.1"
 constraintlayout = "2.1.4"
 
 [libraries]
+# CLOVER-CARD-PAYMENT
+clover-android-sdk = { group = "com.clover.sdk", name = "clover-android-sdk", version = "262.2" }
+clover-android-connector-sdk = { group = "com.clover.sdk", name = "clover-android-connector-sdk", version = "262.2" }
+# CLOVER-CARD-PAYMENT
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }

@@ -37,4 +37,7 @@ dependencies {
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
+    // CLOVER-PAYMENT-CARD
+    implementation libs.clover.android.sdk
+    implementation libs.clover.android.connector.sdk
 }
